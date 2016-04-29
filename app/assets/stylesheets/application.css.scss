@@ -6,8 +6,10 @@ body {
 
 /* Navbar CSS */
 .navbar-default{ /* assigning the top bar to the entire navbar div element */
-    box-shadow: inset 0px 4px 0px #FFFFFF; /* initial gray color to the top bar */   
+    box-shadow: inset 0px 4px 0px #FFFFFF; /* initial gray color to the top bar */ 
+
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: white;
@@ -37,7 +39,7 @@ padding:        5px 20px;
 
 /* Hover Fade Effect */
 a {
-  color:blue;
+  color:black;
   /* First we need to help some browsers along for this to work.
      Just because a vendor prefix is there, doesn't mean it will
      work in a browser made by that vendor either, it's just for
@@ -52,6 +54,33 @@ a {
 /* Hover Fade Effect */
 
 /*---------------------------*/
+
+.nav .navbar-nav > li {
+  font-family: Lato;
+  /*font-size: 1.32em; */
+}
+
+/*------CAROUSEL-------*/
+
+.carousel-inner {
+  max-height: 400px;
+}
+
+.carousel .item.active > img {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item > img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption > h3 {
+  text-align: center;
+  font-size: 3em;
+}
+
+
 
 $navbar-default-link-hover-color: black;
 $navbar-default-bg: #FFFFFF;

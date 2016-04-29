@@ -1,9 +1,9 @@
 class PagesController < ApplicationController
-   def home # Homepage
+  def home # Homepage
   end
 
   # ABOUT BLOCK
-  def about # About the Team
+  def about 
   end
 
   def outreach
@@ -14,10 +14,8 @@ class PagesController < ApplicationController
 
   def mentors
   end
-  # ABOUT BLOCK
 
-
-
+  # FIRST
   def first
   end
 
@@ -34,8 +32,6 @@ class PagesController < ApplicationController
 
   def news
   end
-  #MEDIA BLOCK
-
 
   # RESOURCES BLOCK
   def documents
@@ -46,12 +42,12 @@ class PagesController < ApplicationController
 
   def placeholder
   end
-  # RESROURCES BLOCK
 
-
+  # SPONSORS
   def sponsors
   end
 
+  # BLOG
   def blog
   end
 
